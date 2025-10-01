@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-    int x = 0;
-    int y = 0;
+    int x = 1;
+    int y = 1;
    // creates the X and Y variable
     cout << "Enter the X variable now!" << endl;
     cin >> x;
@@ -17,7 +17,18 @@ int main()
     //prompts user for the Y variable
     cout << "Your answer is " << x + y << "!" << endl;
     // adds the variables together
-    return 0;
+    cout << "Press 2 to exit!" << endl;
+    int exit = 1;
+    cin >> exit;  
+    if (exit = 2) {
+     return 0;
+    } else {
+        return 0;
+    }
+
+
+
+
 
 
 
